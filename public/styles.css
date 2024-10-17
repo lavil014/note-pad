@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    height: 100dvh;
+    padding-top: 2rem;
+    background-color: #40A2E3;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+input{
+    border-radius: 0.2rem;
+    padding: 0.5rem;
+}
+
+textarea {
+    field-sizing: content;
+    max-width: 15rem;
+    padding: 0.5rem;
+}
